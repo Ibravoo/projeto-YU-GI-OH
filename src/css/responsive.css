@@ -16,7 +16,7 @@
     }
 
     .imagem-carta {
-        width: 250px;
+        width: 100%;
     }
 
     .slider {
@@ -25,7 +25,7 @@
 
     .btn-seta {
         position: absolute;
-        botton: -13px;
+        bottom: -13%;
     }
 
     #btn-avancar {
@@ -41,11 +41,11 @@
             justify-content: start;
             padding-top: 10px;
             gap: 10px;
-                    }
+        }
 
-                    .caecalho{
-                        font-size: 12px;
-                    }
+        .caecalho {
+            font-size: 12px;
+        }
     }
 
 }
