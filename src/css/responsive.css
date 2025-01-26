@@ -2,7 +2,6 @@
     body {
         background-position: center;
         padding: 0 15px;
-
     }
 
     .slider {
@@ -35,17 +34,16 @@
     #btn-voltar {
         left: 20%;
     }
+}
 
-    @media(max-width: 375px) {
-        body {
-            justify-content: start;
-            padding-top: 10px;
-            gap: 10px;
-        }
-
-        .caecalho {
-            font-size: 12px;
-        }
+@media(max-width: 375px) {
+    body {
+        justify-content: start;
+        padding-top: 10px;
+        gap: 10px;
     }
 
+    .cabecalho {
+        font-size: 12px;
+    }
 }
